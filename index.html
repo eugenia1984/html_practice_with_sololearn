@@ -12,13 +12,13 @@
     <!-- The head of an HTML file contains all of the non-visual elements that help make the page work.-->
 
 </head>
-<body>
+<body bgcolor="#FAEDC2">
    
     <!--This is my first HTML practice with www.sololean.com, I`ll publish my practises doing the course-->
     <!--All visual-structural elements are contained within the body tag-->
     <!-- Practising the paragrapgh and heading tags-->
    
-    <h1> This are the exersices of HTML SoloLearn Course </h1>
+    <h1> <font color="#CC1B07">  his are the exersices of HTML SoloLearn Course </font>  </h1>
         <p> I`m learning HTML on SoloLearn!</p>
         <p> This is another paragraph</p>
         <p> This is <br/> a line break </p>
@@ -91,16 +91,16 @@
         <li> B </li>
     </ul>
 
-    <!--Tables are defined by using the <table> tag.
-    Tables are divided into table rows with the <tr> tag.
-    Table rows are divided into table columns (table data) with the <td> tag.
-    Table data tags <td> act as data containers within the table.
-    They can contain all sorts of HTML elements, such as text, images, lists, other tables, and so on.
-    A border can be added using the border attribute: <table border="2">
-    A table cell can span two or more columns: <td colspam=" -number of colums to span-"> </td>
-    To make a cell span more than one row, use the rowspan attribute.
-    To change your table's position, use the align attribute inside your table tag.
-    To specify a background color for a table cell just use the bgcolor attribute.-->
+        <!--TABLES: are defined by using the <table> tag.
+        Tables are divided into table rows with the <tr> tag.
+        Table rows are divided into table columns (table data) with the <td> tag.
+        Table data tags <td> act as data containers within the table.
+        They can contain all sorts of HTML elements, such as text, images, lists, other tables, and so on.
+        A border can be added using the border attribute: <table border="2">
+        A table cell can span two or more columns: <td colspam=" -number of colums to span-"> </td>
+        To make a cell span more than one row, use the rowspan attribute.
+        To change your table's position, use the align attribute inside your table tag.
+        To specify a background color for a table cell just use the bgcolor attribute.-->
 
     <h2 align="center"> One example of a table with first row and three columns and second row with two colomns, one is two colomn span </h2>
     <table border="3" align="center">
@@ -115,8 +115,8 @@
         </tr>
     </table>
 
-    <!--I Use table tags to add a table that represents my daily learning schedule.
-    The <th> tags represent the table headers.-->
+        <!--I Use table tags to add a table that represents my daily learning schedule.
+        The <th> tags represent the table headers.-->
 
     <table border="2" align="center">
 
@@ -185,13 +185,102 @@
             <td></td>
             <td></td>
         </tr>
-
-        
-
-        
- 
     </table>
+
+        <!-- TYPES OF ELEMENTS: 
+        Block level elements start from a new line.
+        Inline elements are normally displayed without line breaks.
+        The <div> element defines a block-level section in a document, it's often used as a container for other HTML elements.
+        When used together with some CSS styling, the <div> element can be used to style blocks of content
+        The <span> element defines an inline section in a document.It is an inline element 
+        that is often used as a container for some text.
+        When used together with CSS, the <span> element can be used to style parts of the text.
+        You can insert inline elements inside block elements. 
+        For example, you can have multiple <span> elements inside a <div> element.
+        Inline elements cannot contain any block level elements.-->
+
+        
+    <h2 align="center"> Example of a  div  tag element to style blocks of content </h2>
+        <div style="background-color:rgb(36, 201, 36); color:rgb(237, 231, 78); padding:30px;">
+              <p align="center">Some paragraph text goes here.</p>
+              <p align="center"> Another paragraph goes here.</p>
+        </div>
+ 
+    <h2 align="center"> Example of the span element used together with CSS,  to style parts of the text </h2>
+    <h3> Some <span style="color:red"> Important </span> Message </h3>
+
+        <!--The <form> Element:
+        HTML forms are used to collect information from the user.
+        Forms are defined using the <form> element, with its opening and closing tags.
+        Usually the form is submitted to a web page on a web server - using 
+        the action attribute to point to a webpage that will load after the user submits the <form action="
+        
+        The method attribute specifies the HTTP method (GET or POST) to be used when forms are submitted 
+        When you use GET, the form data will be visible in the page address. 
+        Use POST if the form is updating data, or includes sensitive information (passwords).
+        POST offers better security because the submitted data is not visible in the page address.
     
+        To take in user input, you need the corresponding form elements, such as text fields. 
+        The <input> element has many variations, depending on the type attribute. 
+        It can be a text, password, radio, URL, submit, etc.
+        The name attribute specifies a name for a form.-->
+
+    <h2 align="center"> A form requesting a username and password </h2>
+    <form>
+        Username: <input type="text" name="username" /><br />
+        PAssword: <input type="password" name="password" />
+    </form>  
+
+       <!-- If we change the input type to radio, it allows the user select only one of a number of choices-->
+
+    <h2 align="center"> Example of INPUT  TYPE RADIO, that allows the user select only one of a number of choices</h2>
+    <h3> Select your gender</h3>
+        <input type="radio" name="gender" value="male" /> Male <br />
+        <input type="radio" name="gender" value="female" /> Female <br />
+        <input type="radio" name="gender" value="other" /> Other <br />
+    
+        <p>  <input type="submit" value="Submit" />  </p>
+
+        <!-- The type "checkbox" allows the user to select more than one option -->
+
+    <h2 align="center"> Example of INPUT TYPE CHECKBOX, that allows the user to select more than one option </h2>
+    <h3> Do you have any pets?</h3> 
+    <input type="checkbox" name="Yes-No" value="Yes" /> Yes <br />
+    <input type="checkbox" name="Yes-No" value="No" /> No <br />
+
+        <!-- The submit button submits a form to its action attribute.
+        After the form is submitted, the data should be processed on the server using a programming language, such as PHP -->
+
+    <h3> I´d created a Contact Form, including: Name, Email, and Message fields, and has a Submit button. </h3>
+    <h4> <span style="color:rgb(0, 174, 255)"> Contact Me </span> </h3>
+    <form>
+      Name: <input name="name" type="text" /><br/>
+      E-mail: <input name="email" type="email" /><br/>
+      Message: <textarea name="message"></textarea> <br>
+     <input type="submit" value="SEND" class="submit" />
+    </form>
+
+        <!--COLOR MODEL:
+        Colors are displayed in combinations of red, green, and blue light (RGB). 
+        Hexadecimal  values are written using the hashtag symbol (#), followed by either three or six hex characters.
+
+        The bgcolor attribute can be used to change the web page's background color.
+        The color attribute specifies the color of the text inside a <font> element. -->
+
+        <!--FRAMES:
+        A page can be divided into frames using a special frame document.
+        The <frame> tag defines one specific window (frame) within a <frameset>. 
+        Each <frame> in a <frameset> can have different attributes, such as border, scrolling, the ability to resize, etc. 
+        The <frameset> element specifies the number of columns or rows in the frameset, as well as what percentage 
+        or number of pixels of space each of them occupies.
+        Example:
+        <frameset cols="100, 25%, *"></frameset>
+        <frameset rows="100, 25%, *"></frameset>
+        Use the <noresize> attribute to specify that a user cannot resize a <frame> element:
+        <frame noresize="noresize">
+        Frame content should be defined using the src attribute.
+        Lastly, the <noframes> element provides a way for browsers that do not support frames to view the page. 
+        The element can contain an alternative page,-->
 
 </body>
 
