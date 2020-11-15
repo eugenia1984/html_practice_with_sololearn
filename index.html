@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+    <!-- HTML it´s a markup languague-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--The title tag is between the head tags-->
+    
+    <title>SoloLearn HTML Course </title>
+    
+    <!-- The head of an HTML file contains all of the non-visual elements that help make the page work.-->
+
+</head>
+<body>
+   
+    <!--This is my first HTML practice with www.sololean.com, I`ll publish my practises doing the course-->
+    <!--All visual-structural elements are contained within the body tag-->
+    <!-- Practising the paragrapgh and heading tags-->
+   
+    <h1> This are the exersices of HTML SoloLearn Course </h1>
+        <p> I`m learning HTML on SoloLearn!</p>
+        <p> This is another paragraph</p>
+        <p> This is <br/> a line break </p>
+    
+        <!--Formatting elements were designed to display special types of text-->
+   
+    <h2>An example  of formatting elements to display special types of texts</h2>
+        <p> This is a regular text</p>
+        <p> <b> This is a bold text</b> </p>
+        <p> <i> This is an italic text </i> </p>
+        <p> <small> This is a small text </small> </p> 
+        <p> <strong> This is a strong text </strong> </p> 
+        <p> <sub> This is a subscripted text </sub> </p> 
+        <p> <ins> This is a inserted text </ins> </p> 
+        <p> <del> This is a deleted text </del> </p> 
+        <!-- Practising horizontal line and the attribute measurement to modify the horizontal line so it has a width of 350 pixels.
+        An element's width can also be defined using percentages.-->
+    
+    <hr width="350px"/>
+   
+        <!--Practising attributes. Attributes are always specified in the start tag, and they appear in name="value" pairs.
+        The ALING attribute is used to align the contests of an element to the RIGHT, CENTER or LEFT. -->
+   
+    <p align="center"> This text is aligned to center </p>
+        <p align="left"> 
+    <hr width="50%" align="right"/> This is a text,aligned to the left, with an horizontal line of 50 % width alignt to the right. </p>
+   
+        <!--The <img> tag is used to insert an image. It contains only attributes, and does not have a closing tag.
+        The image's URL (address) can be defined using the src attribute.
+        if you have a photo named "tree.jpg" in the same folder as the HTML file, your code should look like this:
+        <img src="tree.jpg" " height="150px" width="80%" border="1px" alt="this is an image of a tree" />
+        The alt attribute specifies an alternate text for an image.
+        To define the image size, use the width and height attributes.
+        The value can be specified in pixels or as a percentage.
+        By default, an image has no borders. Use the border attribute within the image tag to create a border around the image.-->
+    
+    <h2 align="center"> Let`s see an image of a lovely running puppy </h2>
+        <img src="puppy.jpg" " height="300px" width="80%" border="3px"  alt="this is an image of a lovely running puppy." />
+       
+        <!--You can add links to text or images that will enable the user to click on them in order to be directed to another file or webpage.
+        In HTML, links are defined using the <a> tag. 
+        Use the href attribute to define the link's destination:
+        <a href="URL"> </a>
+        Links can be either absolute or relative.
+        The target attribute specifies where to open the linked document.
+        Giving a _blank value to your attribute will have the link open in a new window or new tab-->
+    
+    <br/>
+    <a href="https://www.google.com/search?q=puppy+pics&safe=active&rlz=1C1OKWM_esAR828AR828&sxsrf=ALeKk00KN3maDc-gR4jdI3I23Lucdj-2UQ:1605448880392&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiX2OGR24TtAhU5JrkGHSMVB-EQ_AUoAXoECBUQAw&biw=788&bih=615" target="_blank"> To see more puppy pics click here </a>
+        
+        <!--An ordered list starts with the <ol> tag, and each list item is defined by the <li> tag.
+        The list items will be automatically marked with numbers.--> 
+
+    <ol> This is an ORDERED LIST example
+        <li> One item of the list </li>
+        <li> Another item of the list </li>
+    </ol>
+
+        <!--An unordered list starts with the <ul> tag.
+        The list items will be marked with bullets.-->
+    
+    <ul> This is an UNORDERED LIST example
+            <li> One item of the list </li>
+            <li> Another item of the list </li>
+    </ul>
+
+
+    <ul> Un unordered list with the A item linked to SoloLearn web page
+        <li> <a href="https://www.sololearn.com"> A </a> </li>
+        <li> B </li>
+    </ul>
+
+    <!--Tables are defined by using the <table> tag.
+    Tables are divided into table rows with the <tr> tag.
+    Table rows are divided into table columns (table data) with the <td> tag.
+    Table data tags <td> act as data containers within the table.
+    They can contain all sorts of HTML elements, such as text, images, lists, other tables, and so on.
+    A border can be added using the border attribute: <table border="2">
+    A table cell can span two or more columns: <td colspam=" -number of colums to span-"> </td>
+    To make a cell span more than one row, use the rowspan attribute.
+    To change your table's position, use the align attribute inside your table tag.
+    To specify a background color for a table cell just use the bgcolor attribute.-->
+
+    <h2 align="center"> One example of a table with first row and three columns and second row with two colomns, one is two colomn span </h2>
+    <table border="3" align="center">
+        <tr>
+            <td bgcolor="red"> first column</td>
+            <td bgcolor="yellow"> second column </td>
+            <td bgcolor="blue"> third column </td>
+        </tr>
+        <tr>
+            <td bgcolor="red"> first column</td>
+            <td bgcolor="green" colspan="2"> <strong>  second and third column span </strong> </td>
+        </tr>
+    </table>
+
+    <!--I Use table tags to add a table that represents my daily learning schedule.
+    The <th> tags represent the table headers.-->
+
+    <table border="2" align="center">
+
+        <tr>
+            <th> Day </th>
+            <th> Monday </th>
+            <th> Tuesday </th>
+            <th> Wednesday </th>
+            <th> Thursday </th>
+            <th> Friday </th>
+            <th> Saturday</th>
+            <th> Sunday </th>
+        </tr>
+
+        <tr>
+            <td>8-8:30</td>
+            <td class="selected">Learn</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>9-10</td>
+            <td></td>
+            <td class="selected">Practice</td>
+            <td></td>
+            <td class="selected">Learn</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>1-1:30</td>
+            <td></td>
+            <td></td>
+            <td class="selected">Play</td>
+            <td></td>
+            <td></td>
+            <td class="selected">Code</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>3:45-5</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="selected">Code</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>6-8:30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="selected">Discuss</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        
+
+        
+ 
+    </table>
+    
+
+</body>
+
+</html>
