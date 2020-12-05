@@ -4,7 +4,7 @@ _I will update my first practise with **www.sololearn.com** in the **HTML Course
 _If you have any suggestion, please be my guest._
 
 ## You can see more of my professional life at LinkedIn:
-[Here] (http://www.linkedin.com/in/maríaeugeniacosta)
+**http://www.linkedin.com/in/maríaeugeniacosta**
 
 ## Please: 🎁
 
