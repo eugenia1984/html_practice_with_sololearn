@@ -19,4 +19,4 @@ _**HTML 5** and **CSS3**_
 ---
 ## Notes
 I appreciate your interest in this Project <br/>
-⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊
+⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊 and follow me at [LinkedIn]( http://www.linkedin.com/in/maríaeugeniacosta) 
